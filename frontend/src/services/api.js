@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://future-fs-02-hdle.onrender.com';
+const API_BASE_URL = 'https://future-fs-02-hdle.onrender.com/api';
 
 const handleResponse = async (response) => {
   const data = await response.json().catch(() => ({}));
